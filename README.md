@@ -8,7 +8,7 @@ Omnifood is a responsive landing page built for a fictional AI-powered meal plan
 
 </div>
 
-## 📖 About Omnifood
+## 📖 About
 
 > _We are a technology company first, but with a major focus on consumer well-being through a healthy diet._
 
@@ -18,6 +18,29 @@ Modern life leaves little time for cooking, which can lead to a poor diet and la
 - The AI algorithm generates a fully personalized weekly meal plan.
 - Partner restaurants and cooking partners prepare and deliver every meal directly to the user's door, in selected cities.
 - Everything is bundled into a monthly subscription — with the option to receive one or two meals per day, every single day of the month.
+
+## ✨ Features
+
+- **Fully responsive layout** — adapted for mobile, tablet, and desktop screens via custom media queries.
+- **No frameworks or builders** — every line of HTML, CSS, and JavaScript was written by hand.
+- **PWA-ready** — includes a `manifest.webmanifest` for basic Progressive Web App support.
+- **Clean architecture** — styles are split across three focused files to separate concerns: base tokens, component styles, and responsive rules.
+
+## 🎬 Demo
+
+![Omnifood hero section screenshot](screenshot.png)
+
+⛓️‍💥 [Live demo](https://pmbfsa.github.io/omnifood/)
+
+## 🚀 Getting Started
+
+No build process or dependencies required. Just clone the repository and open the file in your browser:
+
+```bash
+git clone https://github.com/pmbfsa/omnifood
+```
+
+Then open `index.html` directly in your browser, or serve it locally using any static server, such as the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code.
 
 ## 🗂️ Project Structure
 
@@ -34,23 +57,6 @@ omnifood/
 ├── index.html            # Main HTML entry point
 └── manifest.webmanifest  # Web app manifest for PWA support
 ```
-
-## ✨ Features
-
-- **Fully responsive layout** — adapted for mobile, tablet, and desktop screens via custom media queries.
-- **No frameworks or builders** — every line of HTML, CSS, and JavaScript was written by hand.
-- **PWA-ready** — includes a `manifest.webmanifest` for basic Progressive Web App support.
-- **Clean architecture** — styles are split across three focused files to separate concerns: base tokens, component styles, and responsive rules.
-
-## 🚀 Getting Started
-
-No build process or dependencies required. Just clone the repository and open the file in your browser:
-
-```bash
-git clone https://github.com/pmbfsa/omnifood
-```
-
-Then open `index.html` directly in your browser, or serve it locally using any static server, such as the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code.
 
 ## ✒️ Author
 
